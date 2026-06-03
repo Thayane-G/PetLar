@@ -2,9 +2,13 @@
 
 Plataforma fictícia de adoção de animais desenvolvida com HTML, CSS e JavaScript.
 
+ --- 
+ 
 ## 📁 Sobre o projeto
 
 O PetLar foi criado com o objetivo de conectar animais disponíveis para adoção a possíveis adotantes, além de apresentar produtos voltados para pets.
+
+---
 
 ## 📌 Funcionalidades
 
@@ -16,6 +20,8 @@ O PetLar foi criado com o objetivo de conectar animais disponíveis para adoçã
 - Efeitos visuais com CSS
 - Layout adaptável para diferentes tamanhos de tela
 
+---
+
 ## 💻 Tecnologias utilizadas
 
 - HTML5
@@ -23,6 +29,8 @@ O PetLar foi criado com o objetivo de conectar animais disponíveis para adoçã
 - JavaScript
 - Swiper.js
 - Boxicons
+
+---
 
 ## 🧠 Aprendizados
 
@@ -33,6 +41,8 @@ O PetLar foi criado com o objetivo de conectar animais disponíveis para adoçã
 -Utilização da biblioteca Swiper.js para criação de sliders
 -Organização de arquivos e boas práticas de front-end
 -Versionamento de código com Git e GitHub
+
+---
 
 ## 👩‍💻 Autora
 
