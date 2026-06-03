@@ -34,13 +34,15 @@ O PetLar foi criado com o objetivo de conectar animais disponíveis para adoçã
 
 ## 🧠 Aprendizados
 
--Estruturação de páginas com HTML semântico
--Estilização e responsividade com CSS
--Manipulação do DOM com JavaScript
--Implementação de menu responsivo
--Utilização da biblioteca Swiper.js para criação de sliders
--Organização de arquivos e boas práticas de front-end
--Versionamento de código com Git e GitHub
+Durante o desenvolvimento deste projeto, pratiquei:
+
+- Estruturação de páginas com HTML semântico
+- Estilização e responsividade com CSS
+- Manipulação do DOM com JavaScript
+- Implementação de menu responsivo
+- Utilização da biblioteca Swiper.js para criação de sliders
+- Organização de arquivos e boas práticas de front-end
+- Versionamento de código com Git e GitHub
 
 ---
 
