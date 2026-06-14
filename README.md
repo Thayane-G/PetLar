@@ -57,4 +57,3 @@ Durante o desenvolvimento deste projeto, pratiquei:
 ## 👩‍💻 Autora
 
 Thayane Gabriele
-
