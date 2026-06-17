@@ -1,0 +1,192 @@
+body{
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+.btn-voltar{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    height: 50px;
+    width: 50px;
+    background: rgb(246,147,0);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    z-index: 1000;
+}
+
+.btn-voltar:hover{
+    transform: scale(1.1);
+}
+
+.container-adocao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.imagem-adocao{
+    position: relative;
+}
+
+.imagem-adocao img{
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,.15);
+}
+
+.formulario{
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    animation: subir 1s ease;
+}
+
+.formulario h1{
+    color: rgb(246,147,0);
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.formulario p{
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.campo{
+    margin-bottom: 20px;
+}
+
+.campo label{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.campo input,
+.campo select{
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.campo input:focus,
+.campo select:focus{
+    border-color: rgb(246,147,0);
+    transform: scale(1.02);
+}
+
+button.btn{
+    border: none;
+    width: 100%;
+    padding: 15px;
+}
+
+@media(max-width:900px){
+
+    .container-adocao{
+        flex-direction: column;
+    }
+
+    .imagem-adocao img{
+        width: 100%;
+        height: auto;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+}
+
+/* ANIMAÇÃO DE ENTRADA */
+body{
+    opacity: 0;
+    animation: aparecer 0.8s ease forwards;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#nomePet{
+    color: #3d81c9;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* ====== FAVORITO ====== */
+
+.favorito-area{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#favoritoPet {
+    font-size: 2.2rem;
+    color: #ccc !important;
+    cursor: pointer;
+    transition: .3s;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+#favoritoPet.ativo {
+    color: red !important;
+    transform: scale(1.15);
+}
+/* ====== TOAST ====== */
+
+#toast-favorito{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    background: #333;
+    color: white;
+
+    padding: 12px 18px;
+    border-radius: 12px;
+
+    font-size: 1.4rem;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-20px);
+
+    transition: .3s;
+
+    z-index: 9999;
+}
+
+#toast-favorito.mostrar{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}

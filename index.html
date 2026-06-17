@@ -23,8 +23,6 @@
         
 
 
-
-
 </head>
 <body>
 
@@ -65,15 +63,15 @@
         <div id="menu-bar" class="fas fa-bars"></div>
 
         <nav class="navbar">
-            <a href="#inicio">inicio</a>
+            <a href="#inicio">Inicio</a>
             <a href="#Doguinhos">Doguinhos</a>
             <a href="#Miaus">Miaus</a>
             <a href="#Produtos">Produtos</a>
         </nav>
 
         <div class="icons">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>   
+            <a href="#" class="fas fa-heart" id="openFavoritos"></a>
             <a href="#" class="fas fa-user-circle"></a>
         </div>
 
@@ -85,14 +83,15 @@
     </header>
 
 
-    <section class="inicio" id="inicio">
+  
+  <section class="inicio" id="inicio">
 
         <div class="swiper mySwiper inicio-slider">
 
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                    <div class="box" style="background: url(imgs/slide\ 1.jpeg);">
+                    <div class="box" style="background: url(imgs/slide\-1.jpeg);">
                         <div class="content">
                             <span>Olá humano, me chamo<br> Oliver </span>
                             <h3>Nós gatos <br>somos cantores <br>e ronronamos músicas para<br> quem amamos</h3>
@@ -102,7 +101,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="box" style="background: url(imgs/slide\ 2.webp);">
+                    <div class="box" style="background: url(imgs/slide\-2.webp);">
                         <div class="content">
                             <span>Gostaria de ser meu aumigo? </span>
                             <h3>Você tem cheiro de família</h3>
@@ -112,7 +111,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="box" style="background: url(imgs/slide\ 3.webp);">
+                    <div class="box" style="background: url(imgs/slide\-3.webp);">
                         <div class="content">
                             <span>Este é Duck e Lala </span>
                             <h3>Somos bravos,<br> mas por você, <br>derretemos <br>de amor</h3>
@@ -122,7 +121,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="box" style="background: url(imgs/slide\ 4.webp);">
+                    <div class="box" style="background: url(imgs/slide\-4.webp);">
                         <div class="content">
                             <span>Não direi meu nome</span>
                             <h3>Me adote primeiro e depois me apresento, humano</h3>
@@ -143,20 +142,20 @@
     <section class="banner-container">
 
         <div class="banner">
-            <img src="imgs/banner 1.webp" alt="Cachorro chamado Paçoca disponível para adoção">
+            <img src="imgs/banner-1.webp" alt="Cachorro chamado Paçoca disponível para adoção">
             <div class="content">
                 <span>Este é Paçoca</span>
                 <h3>Ele gosta de<br> lambeijos</h3>
-                <a href="#" class="btn">Adote agora</a>
+                <a href="adocao.html?pet=Pa%C3%A7oca&img=imgs/banner-1.webp" class="btn adotar-btn">Adote agora</a>
             </div>
         </div>
 
         <div class="banner">
-            <img src="imgs/banner 2.webp" alt="Gato chamado Ferdinando usando botas">
+            <img src="imgs/banner-2.webp" alt="Gato chamado Ferdinando usando botas">
             <div class="content">
                 <span>Hola, soy Ferdinando</span>
                 <h3>Cómprame botas<br> y llévame a dar<br> un paseo</h3>
-                <a href="#" class="btn">Adote agora</a>
+                <a href="adocao.html?pet=Ferdinando&img=imgs/banner-2.webp" class="btn adotar-btn">Adote agora</a>
             </div>
         </div>
 
@@ -173,93 +172,91 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="imgs/adote 1.webp" alt="Cachorro chamado Hulk disponível para adoção">
+                <img src="imgs/adote-1.webp" alt="Cachorro chamado Hulk disponível para adoção">
                 <div class="content">
                 <h3>Hulk</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Hulk&img=imgs/adote-1.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
         <div class="box">
-                <img src="imgs/adote 2.webp" alt="Cachorro chamado Toddy disponível para adoção">
+                <img src="imgs/adote-2.webp" alt="Cachorro chamado Toddy disponível para adoção">
                 <div class="content">
                 <h3>Toddy</h3>
-                <a href="#" class="btn"> Me adote </a>
-
+                <a href="adocao.html?pet=Toddy&img=imgs/adote-2.webp" class="btn adotar-btn">Me adote</a>
             </div>
         </div>
 
 
         <div class="box">
-                <img src="imgs/adote 3.webp" alt="Cachorro chamado Café disponível para adoção">
+                <img src="imgs/adote-3.webp" alt="Cachorro chamado Café disponível para adoção">
                 <div class="content">
                 <h3>Café</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Caf%C3%A9&img=imgs/adote-3.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
         <div class="box">
-                <img src="imgs/adote 4.webp" alt="Cachorro chamado Pipoca disponível para adoção">
+                <img src="imgs/adote-4.webp" alt="Cachorro chamado Pipoca disponível para adoção">
                 <div class="content">
                 <h3>Pipoca</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Pipoca&img=imgs/adote-4.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
         <div class="box">
-            <img src="imgs/adote 5.webp" alt="Cachorro chamado Damião disponível para adoção">
+            <img src="imgs/adote-5.webp" alt="Cachorro chamado Damião disponível para adoção">
             <div class="content">
             <h3>Damião</h3>
-            <a href="#" class="btn"> Me adote </a>
-
+            <a href="adocao.html?pet=Dami%C3%A3o&img=imgs/adote-5.webp" class="btn adotar-btn">Me adote</a>
         </div>
     </div>
 
         <div class="box">
-                <img src="imgs/adote 6.webp" alt="Cachorro chamado Otávio disponível para adoção">
+                <img src="imgs/adote-6.webp" alt="Cachorro chamado Otávio disponível para adoção">
                 <div class="content">
                 <h3>Otávio</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Ot%C3%A1vio&img=imgs/adote-6.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
 
         <div class="box">
-            <img src="imgs/adote 7.webp" alt="Cachorro chamado Tostado disponível para adoção">
+            <img src="imgs/adote-7.webp" alt="Cachorro chamado Tostado disponível para adoção">
             <div class="content">
             <h3>Tostado</h3>
-            <a href="#" class="btn"> Me adote </a>
+            <a href="adocao.html?pet=Tostado&img=imgs/adote-7.webp" class="btn adotar-btn">Me adote</a>
 
           </div>
        </div>
 
        <div class="box">
-            <img src="imgs/adote 8.webp" alt="Cachorro chamado Lucca disponível para adoção">
+            <img src="imgs/adote-8.webp" alt="Cachorro chamado Lucca disponível para adoção">
             <div class="content">
             <h3>Lucca</h3>
-            <a href="#" class="btn"> Me adote </a>
+            <a href="adocao.html?pet=Lucca&img=imgs/adote-8.webp" class="btn adotar-btn">Me adote</a>
 
         </div>
     </div>
 
         <div class="box">
-            <img src="imgs/adote 9.webp" alt="Cachorro chamado Jorge disponível para adoção">
+            <img src="imgs/adote-9.webp" alt="Cachorro chamado Jorge disponível para adoção">
             <div class="content">
             <h3>Jorge</h3>
-            <a href="#" class="btn"> Me adote </a>
+            <a href="adocao.html?pet=Jorge&img=imgs/adote-9.webp" class="btn adotar-btn">Me adote</a>
 
     </div>
         </div>
 
         <div class="box">
-                <img src="imgs/adote 10.webp" alt="Cachorro chamado Felizardo disponível para adoção">
+                <img src="imgs/adote-10.webp" alt="Cachorro chamado Felizardo disponível para adoção">
                 <div class="content">
                 <h3>Felizardo</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Felizardo&img=imgs/adote-10.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
@@ -274,97 +271,96 @@
             <div class="box-container">
 
             <div class="box">
-                <img src="imgs/cat 1.webp" alt="Gato chamado Guto disponível para adoção">
+                <img src="imgs/cat-1.webp" alt="Gato chamado Guto disponível para adoção">
                 <div class="content">
                 <h3>Guto</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Guto&img=imgs/cat-1.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
             <div class="box">
-                <img src="imgs/cat 2.webp" alt="Gato chamado Senhor Bigodes disponível para adoção">
+                <img src="imgs/cat-2.webp" alt="Gato chamado Sr Bigodes disponível para adoção">
                 <div class="content">
                 <h3>Senhor Bigodes</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Senhor%20Bigodes&img=imgs/cat-2.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
              <div class="box">
-                <img src="imgs/cat 3.webp" alt="Gato chamado Thiago disponível para adoção">
+                <img src="imgs/cat-3.webp" alt="Gato chamado Thiago disponível para adoção">
                 <div class="content">
                 <h3>Thiago</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Thiago&img=imgs/cat-3.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
              <div class="box">
-                <img src="imgs/cat 4.webp" alt="Gatos Michael e Jack disponíveis para adoção">
+                <img src="imgs/cat-4.webp" alt="Gatos Michael e Jack disponíveis para adoção">
                 <div class="content">
                 <h3>Michael e Jack</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Michael%20e%20Jack&img=imgs/cat-4.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
              <div class="box">
-                <img src="imgs/cat 5.webp" alt="Gato chamado Gastor disponível para adoção">
+                <img src="imgs/cat-5.webp" alt="Gato chamado Gastor disponível para adoção">
                 <div class="content">
                 <h3>Gastor</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Gastor&img=imgs/cat-5.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
             <div class="box">
-                <img src="imgs/cat 6.webp" alt="Gata chamada Camomila disponível para adoção">
+                <img src="imgs/cat-6.webp" alt="Gata chamada Camomila disponível para adoção">
                 <div class="content">
                 <h3>Camomila</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Camomila&img=imgs/cat-6.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
             <div class="box">
-                <img src="imgs/cat 7.webp" alt="Gato chamado Leo disponível para adoção">
+                <img src="imgs/cat-7.webp" alt="Gato chamado Leo disponível para adoção">
                 <div class="content">
                 <h3>Leo</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Leo&img=imgs/cat-7.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
             <div class="box">
-                <img src="imgs/cat 8.webp" alt="Gato chamado Miguelito disponível para adoção">
+                <img src="imgs/cat-8.webp" alt="Gato chamado Miguelito disponível para adoção">
                 <div class="content">
                 <h3>Miguelito</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Miguelito&img=imgs/cat-8.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
             <div class="box">
-                <img src="imgs/cat 9.webp" alt="Gato chamado Oreo disponível para adoção">
+                <img src="imgs/cat-9.webp" alt="Gato chamado Oreo disponível para adoção">
                 <div class="content">
                 <h3>Oreo</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Oreo&img=imgs/cat-9.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
             <div class="box">
-                <img src="imgs/cat 10.webp" alt="Gato chamado Ricardo disponível para adoção">
+                <img src="imgs/cat-10.webp" alt="Gato chamado Ricardo disponível para adoção">
                 <div class="content">
                 <h3>Ricardo</h3>
-                <a href="#" class="btn"> Me adote </a>
+                <a href="adocao.html?pet=Ricardo&img=imgs/cat-10.webp" class="btn adotar-btn">Me adote</a>
 
             </div>
         </div>
 
         </section>
-
 
 
         <section class="Produtos" id="Produtos">
@@ -380,7 +376,7 @@
                     <a href="#" class="fas fa-share"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
-                <img src="imgs/produto 1.webp" alt="Coleira com pingente de ossinho para cães">
+                <img src="imgs/produto-1.webp" alt="Coleira com pingente de ossinho para cães">
                 <h3>Coleira com Pingente de Ossinho</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -405,7 +401,7 @@
                     <a href="#" class="fas fa-share"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
-                <img src="imgs/produto 5.webp" alt="Sachê para cachorros">
+                <img src="imgs/produto-5.webp" alt="Sachê para cachorros">
                 <h3>Sachê Para Cachorros</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -430,7 +426,7 @@
                     <a href="#" class="fas fa-share"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
-                <img src="imgs/produto 3..webp" alt="Osso comestível para cães">
+                <img src="imgs/produto-3..webp" alt="Osso comestível para cães">
                 <h3>Osso Comestivel</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -455,7 +451,7 @@
                     <a href="#" class="fas fa-share"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
-                <img src="imgs/produto 4.webp" alt="Sachê para gatos">
+                <img src="imgs/produto-4.webp" alt="Sachê para gatos">
                 <h3>Sachê Para Gatos </h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -480,7 +476,7 @@
                     <a href="#" class="fas fa-share"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
-                <img src="imgs/produto 2.webp" alt="Pote de cerâmica para alimentação de pets">
+                <img src="imgs/produto-2.webp" alt="Pote de cerâmica para alimentação de pets">
                 <h3>Pote de Cerâmica</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -505,7 +501,7 @@
                     <a href="#" class="fas fa-share"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
-                <img src="imgs/produto 6..webp" alt="Cama confortável para pets">
+                <img src="imgs/produto-6..webp" alt="Cama confortável para pets">
                 <h3>Cama Para Pet</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -578,13 +574,18 @@
         </section>
 
 
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+        <div id="painelFavoritos" class="painel-favoritos">
+            <div class="painel-header">
+                <h2>Meus Favoritos ❤️</h2>
+                <i class="fas fa-times" id="fecharFavoritos"></i>
+        </div>
 
-    <script src="script.js"></script>
+        <div id="listaFavoritos" class="lista-favoritos">
+            
+        </div>
+        <script src="script.js"></script>
 
 </body>
 </html>

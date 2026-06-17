@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Adoção - PetLar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adocao.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="toast-favorito">
+        ❤️ Adicionado aos favoritos
+    </div>
+
+    <a href="index.html" class="btn-voltar">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <section class="container-adocao">
+
+        <div class="imagem-adocao">
+            <img id="imagemPet" src="" alt="Pet para adoção">
+
+            <!-- coração menor e discreto -->
+            <div class="favorito-area">
+                <i class="fas fa-heart" id="favoritoPet"></i>
+            </div>
+
+        </div>
+
+        <div class="formulario">
+
+            <h1>Quero Adotar um Pet</h1>
+            <h2 id="nomePet"></h2>
+
+            <p>
+                Preencha seus dados e nossa equipe entrará em contato.
+            </p>
+
+            <form id="formAdocao">
+
+                <div class="campo">
+                    <label>Nome Completo</label>
+                    <input type="text" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label>E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label>Cidade</label>
+                    <select id="cidade" required>
+                        <option value="">Selecione</option>
+                        <option>Maracanaú</option>
+                        <option>Fortaleza</option>
+                        <option>Pacatuba</option>
+                        <option>Caucaia</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Deseja comprar algum produto da loja?</label>
+
+                    <select id="comprar">
+                        <option>Não</option>
+                        <option>Sim</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">
+                    Enviar Solicitação
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="adocao.js"></script>
+
+</body>
+</html>
