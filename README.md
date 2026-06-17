@@ -51,6 +51,7 @@ Durante o desenvolvimento deste projeto, pratiquei:
 <img width="1887" height="990" alt="Captura de tela 2026-06-03 143720" src="https://github.com/user-attachments/assets/385b16ad-01f6-43c5-820f-6de06bf65e34" />
 <img width="1889" height="1038" alt="Captura de tela 2026-06-03 143826" src="https://github.com/user-attachments/assets/6cd150b8-cab2-44fe-97bd-e6104e2f4671" />
 <img width="1888" height="1026" alt="Captura de tela 2026-06-03 143811" src="https://github.com/user-attachments/assets/cdacdb08-8917-4ec2-8137-97202aad7fe9" />
+<img width="1918" height="1028" alt="Captura de tela 2026-06-17 203919" src="https://github.com/user-attachments/assets/7249e676-a88a-42a1-bf5a-14e92ac67cc7" />
 
 ---
 
